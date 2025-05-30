@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Simple Shopping Store</title>
+<link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <img src="asset/logo.jpg" alt="logo" class="logo">
+<header>My Simple Shopping Store</header>
+<main>
+  <section class="products">
+    <h2>Products</h2>
+    <ul class="product-list" id="productList">
+      <li>
+        <div class="product-info">
+          <span>Banana</span>
+          <span class="product-price">$2.25</span>
+        </div>
+        <button class="add-btn" data-product="banana">Add to Cart</button>
+      </li>
+      <li>
+        <div class="product-info">
+          <span>Apple</span>
+          <span class="product-price">$2.30</span>
+        </div>
+        <button class="add-btn" data-product="apple">Add to Cart</button>
+      </li>
+      <li>
+        <div class="product-info">
+          <span>Orange</span>
+          <span class="product-price">$1.99</span>
+        </div>
+        <button class="add-btn" data-product="orange">Add to Cart</button>
+      </li>
+    </ul>
+  </section>
+  <section class="cart">
+    <h2>Your Cart</h2>
+    <ul class="cart-list" id="cartList">
+      <li class="empty-cart">Your cart is empty.</li>
+    </ul>
+    <div class="cart-total" id="cartTotal" style="display:none">Total: $0.00</div>
+  </section>
+</main>
+
+<script src="js/script.js"></script>
+</body>
+</html>
+
+
